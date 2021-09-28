@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="refresh" content="6">
+  <link rel="icon" href="icon.png" sizes="16x16" type="image/png">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Alpar Consulting">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="apple-touch-icon" href="icon.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alpar</title>
+   </head> 
+<body>
+  
+      <div class="logo">
+        <img src="icon.png" alt="">
+    </div>
+    
+ <div class="card">
+    <div class="title">Class 1</div>
+  <div class="content">
+   <!--  <input type="checkbox" name="t1" id="topic1In" class="rd" value="Engineering Management">
+    <input type="checkbox" name="t2" id="topic2In" class="rd" value="System & Safety Assurance">
+    <input type="checkbox" name="t3" id="topic3In" class="rd" value="Risk Management">
+   -->
+    <label for="topic1In" class="box first" value="Engineering Management">
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Student A</span>
+    </div>
+    </label>
+    <label for="topic1In" class="box first" value="Engineering Management">
+        <div class="plan">
+        <span class="circle"></span>
+        <span class="yearly">Student B</span>
+      </div>
+      </label>
+      <label for="topic1In" class="box first" value="Engineering Management">
+        <div class="plan">
+        <span class="circle"></span>
+        <span class="yearly">Student C</span>
+      </div>
+      </label>
+    
+    <label for="topic2In" class="box second">
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Student D</span>
+    </div>
+     </label>
+    <label for="topic3In" class="box third">
+      <div class="plan">
+      <span class="circle"></span>
+        <span class="yearly">Student E</span>
+      </div>
+    </label>
+  </div>
+ </div>
+ <div class="card">
+    <div class="title">Class 2</div>
+  <div class="content">
+   <!--  <input type="checkbox" name="t22" id="four" class="rd" value="Business Intelligence">
+    <input type="checkbox" name="t22" id="five" class="rd" value="Organisational Systems">
+   -->
+    <label for="four" class="box four">
+    
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Student A</span>
+    </div>
+    </label>
+    <label for="four" class="box four">
+    
+        <div class="plan">
+        <span class="circle"></span>
+        <span class="yearly">Student B</span>
+      </div>
+      </label>
+      <label for="four" class="box four">
+    
+        <div class="plan">
+        <span class="circle"></span>
+        <span class="yearly">Student C</span>
+      </div>
+      </label>
+      <label for="four" class="box four">
+    
+        <div class="plan">
+        <span class="circle"></span>
+        <span class="yearly">Student D</span>
+      </div>
+      </label>
+      
+
+    <label for="five" class="box five">
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Student E</span>
+    </div>
+    </label>
+  </div>
+ </div>
+<!--- <div class="card">
+    <div class="title">Support Length</div>
+  <div class="content">
+    <input type="checkbox" name="t33" id="seven" class="rd" value="Single Project">
+    <input type="checkbox" name="t33" id="eight" class="rd" value="Ad hoc support">
+    <input type="checkbox" name="t33" id="nine" class="rd" value="Long term resource">
+  
+    <label for="seven" class="box seven">
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Single Project</span>
+    </div>
+    </label>
+    <label for="eight" class="box eight">
+      <div class="plan">
+      <span class="circle"></span>
+      <span class="yearly">Ad hoc support</span>
+    </div>
+    </label>
+    <label for="nine" class="box nine">
+      <div class="plan">
+      <span class="circle"></span>
+        <span class="yearly">Long term resource</span>
+      </div>
+    </label>
+  </div>
+ </div>-->
+
+ 
+ 
+ <script>
+  if('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+          navigator.serviceWorker.register('serviceworker.js')
+              .then((reg) => console.log('Success: ', reg.scope))
+              .catch((err) => console.log('Failure: ', err));
+      })
+  }
+</script>
+   
+   
+
+
+  
+
+
+</body>
+</html>
